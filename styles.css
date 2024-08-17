@@ -7,7 +7,7 @@
     --font-medium: 500;
 }
 
-/*===== Colores =====*/
+/*===== Color =====*/
 :root{
     --first-color: #ff5151;
     --white-color: #FAFAFF;
@@ -15,7 +15,7 @@
     --text-color: #697477;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Just for font =====*/
 :root{
     --body-font: 'New Amsterdam', sans-serif;
     --big-font-size: 6.25rem;
@@ -32,7 +32,7 @@
     }
 }
 
-/*===== Margenes =====*/
+/*===== Margin antara aku dan kamu=====*/
 :root{
     --mb-1: .5rem;
     --mb-2: 1rem;
@@ -112,7 +112,6 @@ img{
     width: calc(100% - 2rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
-    /* border: 2px solid red; */
 }
 .l-header{
     width: 100%;
@@ -125,11 +124,12 @@ img{
 
 /*===== NAV =====*/
 .nav{
-    max-width: 80vw;
+    max-width: 1024px;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px solid rgb(0, 13, 255);
 }
 @media screen and (max-width: 768px){
     .nav__menu{
@@ -454,14 +454,6 @@ img{
         column-gap: 2rem;
     }
 
-    .contact__container{
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-    }
-    .contact__form{
-        width: 380px;
-    }
-
     .footer__container{
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
@@ -481,7 +473,7 @@ img{
         height: 640px;
     }
     .home__img {
-        width: 500px;
-        right: 24%;
+        width: 60%;
+        right: 0;
     }
 }
